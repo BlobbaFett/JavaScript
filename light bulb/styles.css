@@ -8,7 +8,7 @@ body {
     gap: 32px;
 }
 .light-box, .switch-box {
-    border: 1px red solid;
+    border: 0px red solid;
     width: 250px;
     height: 250px;
 }
