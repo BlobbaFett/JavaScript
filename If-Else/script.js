@@ -27,8 +27,8 @@ else{
 }
 
 
-let coin = prompt('Heads or Tails');
-let flip = ;
+//let coin = prompt('Heads or Tails');
+//let flip = ;
 if (coin === flip) {
     alert('You guessed correctly! It was ' + flip);
 } else {
