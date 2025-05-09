@@ -2,7 +2,7 @@ let ballon = document.querySelector("p");
 let size = 1;
 
 document.addEventListener('keydown', function(event) {
-    if (size <= 10 ){
+    if (size <= 15 ){
         if (event.key === 'ArrowUp'){
             console.log('Up')
             inflate();
@@ -15,7 +15,6 @@ document.addEventListener('keydown', function(event) {
             ballon.textContent = '💥'
     }
 });
-
 
 function inflate() {
     size += 0.1;
