@@ -26,11 +26,10 @@ else{
     alert('Not eligible')
 }
 
-
-//let coin = prompt('Heads or Tails');
-//let flip = ;
-if (coin === flip) {
-    alert('You guessed correctly! It was ' + flip);
+let coin = Math.random();
+let flip = prompt('heads or tails');
+if (coin <= 0.5) {
+    alert('You guessed correctly!');
 } else {
-    alert('Wrong guess! It was ' + flip);
+    alert('Wrong guess!');
 }

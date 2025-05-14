@@ -42,7 +42,9 @@ input{
     font-size: 1.5rem;
     cursor: crosshair;
     text-align: center;
-
+}
+.operation_button:hover{
+    background-color: white;
 }
 
 .result{
