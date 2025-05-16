@@ -19,7 +19,9 @@ h1{
     gap: 1rem;
 }
 .coinbox{
-    font-size: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
 }
 .coins{
     display: flex;
